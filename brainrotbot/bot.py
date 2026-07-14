@@ -3,7 +3,7 @@ import random
 import discord
 from discord.ext import commands
 
-TOKEN = "MTUyNjU1MzUyMzQwNjI0NTg5OQ.G9K4ZF.6D8rzdWA4s7ImxMOwR0gVhHGWAdHyCXD9JwBoU"
+TOKEN = os.getenv("TOKEN")
 
 intents = discord.Intents.default()
 
